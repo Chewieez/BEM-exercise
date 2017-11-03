@@ -48,8 +48,8 @@ CarsDatabase.forEach(car => {
         <section class="car__price">
             <p>Price: $${car.price}</p>
         </section>
-        <section class="car__picture">
-            <img src='${car.pic}'>
+        <section class="car__pictureSection">
+            <img src='${car.pic}' class="car__image">
         </section>
         <section class="car__specifications">
             <section class="car__year">
